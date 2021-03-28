@@ -1,0 +1,1 @@
+This is my first project-task from The Odin Project where I will be cloning the Google Homepage. The idea is to get comfortable structuring and styling a page using basic HTML and CSS.
