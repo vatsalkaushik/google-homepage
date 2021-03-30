@@ -1,10 +1,16 @@
 body {
+    min-width: 400px;
     font-family: arial;
     display:flex;
     flex-direction: column;
     align-items:center;
     justify-content: space-between;
     min-height:100vh;
+}
+
+main {
+    width: 584px;
+    text-align: center;
 }
 
 .search-button {
@@ -21,6 +27,11 @@ body {
 
 .search-button:hover {
     box-shadow: 0 1px 1px rgba(0,0,0,.1);
-    border: 1px solid #dadce0;
+    border-color: #dadce0;
     color: #202124;
+}
+
+#search-box {
+    display: flex;
+    border: 1px solid #dfe1e5;
 }
