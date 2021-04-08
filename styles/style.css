@@ -73,3 +73,36 @@ footer {
     color: inherit;
     padding: 15px;
 }
+
+nav {
+    margin-right: 0px;
+    margin-left: auto;
+    padding: 15px;
+    display: inline-block;
+}
+
+nav a {
+    margin-right: 15px;
+    text-decoration: none;
+    color: rgba(0,0,0,0.87);
+    font-size: 13px;
+}
+
+nav img {
+    width: 18px;
+    height: 18px;
+    vertical-align: middle;
+    opacity: 0.6;
+    cursor: pointer;
+}
+
+nav button {
+    margin-left: 15px;
+    color: white;
+    background-color: #1a73e8;
+    cursor: pointer;
+    font-size: 14px;
+    border-radius: 4px;
+    padding: 9px 23px;
+    border: 1px solid transparent;
+}
